@@ -1,0 +1,25 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "Express and MongoDB cse341 contants project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakhileMamba/cse341-project1.git"
+  },
+  "author": "Sakhile Mamba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakhileMamba/cse341-project1/issues"
+  },
+  "homepage": "https://github.com/SakhileMamba/cse341-project1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
