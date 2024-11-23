@@ -17,6 +17,7 @@ const getSingle = async (req, res) => {
     results.toArray().then((contacts) => {
         res.setHeader("Content-Type", "application/json");
         res.status(200).json(contacts[0]);
+        
     }
     )
 
