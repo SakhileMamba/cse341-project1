@@ -1,0 +1,33 @@
+// LOCALHOST ### Get all contacts GET http://localhost:3000/contacts
+
+### Get contact by id GET http://localhost:3000/contacts/674210f79f7e019b3b82df26
+
+### Create contact POST http://localhost:3000/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+}
+
+### Update contact PUT http://localhost:3000/contacts/674212b29f7e019b3b82df28 HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"test@gmail.com", "favoriteColor":"Green", "birthday":"12/12/20"
+} ### Delete contact DELETE http://localhost:3000/contacts/674bc436f8458c42cd6c942a HTTP/1.1
+
+// PRODUCTION Deploy ### Get all contacts GET https://cse341-project1-7h3p.onrender.com/contacts
+
+### Get contact by id GET https://cse341-project1-7h3p.onrender.com/contacts/674210f79f7e019b3b82df26
+
+### Create contact POST https://cse341-project1-7h3p.onrender.com/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+}
+
+### Update contact PUT https://cse341-project1-7h3p.onrender.com/contacts/674212b29f7e019b3b82df28 HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
+}
+
+### DELETE contact DELETE https://cse341-project1-7h3p.onrender.com/contacts/674bc436f8458c42cd6c942a HTTP/1.1
